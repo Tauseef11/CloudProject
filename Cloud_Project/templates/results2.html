@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<button onclick="window.location.href = 'http://127.0.0.1:5050/home';">Home</button>
+<table width="800" border="1" class="table">
+<thead>
+ <tr>
+     <th bgcolor="dbff33">ID</th>
+     <th bgcolor="dbff33">Title</th>
+     <th bgcolor="dbff33">Description</th>
+     <th bgcolor="dbff33">Release Date</th>
+ </tr>
+</thead>
+<tbody>
+ <tr>
+     <td bgcolor="#FFFFE0">{{results2.id}}</td>
+     <td bgcolor="#FFFFE0">{{results2.title}}</td>
+     <td bgcolor="#FFFFE0">{{results2.description}}</td>
+     <td bgcolor="#FFFFE0">{{results2.release_date}}</td>
+
+ </tr>
+</tbody>
+<style>
+body {
+   background-color: #FFFFE0;
+
+  }button:hover {
+  background-color: #3e8e41;
+}
+</style>
+<body>
+<button onclick="window.location.href = 'http://127.0.0.1:5050/films';">Films</button>
+
+
+</table>
+<button onclick="window.location.href = 'http://127.0.0.1:5050/';">Logout</button>
+</html>

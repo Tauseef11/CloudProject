@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<table width="800" border="1" class="table">
+<thead>
+<tbody>
+<!--table style="background-color: Red;"-->
+<tr>
+     <th bgcolor="dbff33">Title</th>
+     <th bgcolor="dbff33">ID</th>
+     <!--th>Description</th-->
+     <!--th>Release Date</th-->
+ </tr>
+</thead>
+<!--table style="background-color: Green;"-->
+<tbody>
+{% for task in result %}
+
+ <tr>
+
+   <!--div class="btn-group">
+    <a href="http://127.0.0.1:5050/"; class="btn btn-defaul t">click</a>
+    <a href="http://127.0.0.1:5050/"; class="btn btn-defaul t">click</a>
+  </div>
+
+  <a href="add.php" class="btn btn-lg btn-success">
+    <span class="glyphicon glyphicon-plus"></span> Add
+  </a-->
+
+
+     <td bgcolor="#FFFFE0">{{task.title}}</td>
+
+
+     <td bgcolor="#FFFFE0"><a href="{{url_for('film_name',filmname=task.id)}}">{{task.id}}</a></td>
+
+     <!--td>{{task.description}}</td>
+     <td>{{task.release_date}}</td-->
+ </tr>
+
+
+{% endfor %}
+</tbody>
+<style>
+body {
+   background-color: #FFFFE0;
+}
+
+}
+  } button:hover {
+  background-color: #3e8e41;
+
+}
+
+</style>
+<body>
+
+  <style>
+  body {
+  }button:hover {
+    background-color: #3e8e41;
+  }
+  </style>
+  <body>
+<button onclick="window.location.href = 'http://127.0.0.1:5050/home';">Home</button>
+
+ <p>Select a film ID to see more details!</p>
+</table>
+
+<button onclick="window.location.href = 'http://127.0.0.1:5050/';">Logout</button>
+
+<style>
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+</style>
+<body>
+
+
+</style>
+<body>
+
+
+
+</html>
