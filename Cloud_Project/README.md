@@ -16,7 +16,7 @@ Run ./autostart.sh file to install requirements & provide IP address for applica
 
 Step 1: Navigate to /home/tauseef494/Cloud_Project
 
-Step 2: docker pull cassandra:latest
+Step 2: `docker pull cassandra:latest`
 
 Step 3: docker run --name cassandra-test -d cassandra:latest
 
