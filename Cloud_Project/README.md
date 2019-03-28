@@ -1,5 +1,9 @@
+Anime.py application
+
+How to run in command line - navigate to directory - pip install requirements.txt - python Anime.py - select IP address 
+
 #A cloud based RESTful API with cassandra and kubernetes implementation.
-#Studio ghibli api - web based app shows list of films with description, release date, film name and id.    
+# uses Studio ghibli api - url shows list of films with description, release date, film name and id.    
 #App includes a login page & homepage.
 #Page one is login page
 #Page two is homepage
